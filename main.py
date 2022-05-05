@@ -15,5 +15,16 @@ if __name__ == '__main__':
     print(f'A soma: {resultado_final}')
 
 
-def teste_somar():
-    #1 - Configura
+def testar_somar():
+    # 1 - Configura
+    numero_a = 8
+    numero_b = 7
+    resultado_esperado = 15
+
+    # 2 - Executa
+    resultado_obtido = somar(numero_a, numero_b)
+
+    # 3 - Valida
+    assert resultado_esperado == resultado_obtido
+
+    # Escrevi isso no aqui
