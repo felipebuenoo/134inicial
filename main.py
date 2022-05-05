@@ -27,4 +27,4 @@ def testar_somar():
     # 3 - Valida
     assert resultado_esperado == resultado_obtido
 
-    # Escrevi isso no mudei
+    # Escrevi isso no não vi comparação
